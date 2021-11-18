@@ -1,0 +1,8 @@
+cucim>=21.08
+cupy>=9
+dask[array]>=2.0
+diplib>=3.0
+numpy>=1.17
+uarray>=0.8.2
+# also requires feature dev. branch of scikit-image
+# https://github.com/grlee77/scikit-image/tree/uarray

@@ -16,6 +16,25 @@ currently deprecated arguments have already been removed. Specifically,
 `multichannel` was removed in favor of `channel_axis` and `selem` was
 removed in favor of `footprint`.
 
+## Installation
+
+An editable development install can be performed by checking out the repository
+and using:
+
+```bash
+pip install -e . -v
+```
+
+Runtime requirements:
+
+    - NumPy >= 1.17
+    - CuPy >= 9
+    - cuCIM >= 21.08
+    - uarray >= 0.8.2
+    - dask[array] >= 2.0
+    - scikit-image from branch https://github.com/grlee77/scikit-image/tree/uarray
+
+
 ## Featured Backends
 
 A small subset of functions such as ``skimage.filters.gaussian``,
