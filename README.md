@@ -223,3 +223,11 @@ erosion (ball)           :    GPU-0:   62.290 ms   +/- 0.054 (min:   62.195 / ma
 erosion (rect)           :    GPU-0:   14.698 ms   +/- 0.064 (min:   14.482 / max:   14.863) ms
 structural sim.          :    GPU-0:   42.686 ms   +/- 0.032 (min:   42.646 / max:   42.861) ms
 ```
+
+## More info/discussion on backend approaches
+At the time of writing, there is an ongoing discussion across scientific Python projects about how to unify on approaches to dispatching. Others interested in this topic are encouraged to participate in the conversations related to this at the scientific-python forum:
+
+- [A proposed design for supporting multiple array types across SciPy, scikit-learn, scikit-image and beyond](https://discuss.scientific-python.org/t/a-proposed-design-for-supporting-multiple-array-types-across-scipy-scikit-learn-scikit-image-and-beyond/131)
+- [Support for array types other than NumPy](https://discuss.scientific-python.org/t/support-for-array-types-other-than-numpy/134)
+- [Default dispatching behavior for supporting multiple array types across SciPy, scikit-learn, scikit-image](https://discuss.scientific-python.org/t/default-dispatching-behavior-for-supporting-multiple-array-types-across-scipy-scikit-learn-scikit-image/135)
+- [Requirements and discussion of a type dispatcher for the ecosystem](https://discuss.scientific-python.org/t/requirements-and-discussion-of-a-type-dispatcher-for-the-ecosystem/157)
