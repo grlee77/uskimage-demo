@@ -65,6 +65,12 @@ backends are provided:
   will be transfered to the GPU and the function outputs will be transfered
   back to NumPy arrays on the host.
 
+## Other possible backends to explore
+
+[SimpleITK](https://simpleitk.org) is another popular library supporting nD images that could likely provide a backend for some functions.
+
+[OpenCV](https://opencv.org/) or
+[scikit-ipp](https://intelpython.github.io/scikit-ipp/) could also be used. While fast, these are more restricted on the dtypes supported and I think are typically for 2D images only.
 
 ## Benchmarking results
 
